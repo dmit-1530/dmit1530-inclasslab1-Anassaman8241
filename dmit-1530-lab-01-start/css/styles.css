@@ -12,3 +12,90 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+h1 {
+    color: #405B5B;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 4rem;
+    padding-top: 3.75rem;
+}
+
+main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+main h2 {
+    color: #405B5B;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2.25rem;
+    padding-top: 3.75rem;
+    padding-bottom: 1rem;
+}
+
+.btn-book {
+    width: fit-content;
+    border: 2px solid #405B5B;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 2.5rem;
+} 
+
+.btn-book a {
+    color: #405B5B;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+.img-tours {
+    display: flex;
+}
+
+.img-tour1 {
+    padding-right: 8px;
+}
+
+.img-tour2 {
+    padding-left: 8px;
+}
+
+main h3 {
+    color: #182222;
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
+}
+
+main p {
+    color: #405B5B;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer {
+    background-color: #405B5B;
+    color: #e2dfe7;
+    text-align: center;
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+footer h2 {
+    font-size: 24px;
+    padding-bottom: 1rem;
+}
+
+footer p {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 48rem) {
+    main {
+        margin: auto;
+        max-width: 48rem;
+        width: 48rem;
+    }
+}
